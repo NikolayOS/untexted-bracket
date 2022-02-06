@@ -2,10 +2,14 @@
     width: auto;
     height: auto;
     border: solid red;
-}
+} */
 
 #textFild2{
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
+    border: solid rgb(0, 195, 255);
+    overflow: auto;
+}
+.span1{
     border: solid red;
-} */
+}

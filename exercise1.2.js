@@ -1,5 +1,3 @@
-
-
 let btn = document.getElementById("btnConvert");
 
 btn.addEventListener("click", checkBracket);
@@ -24,14 +22,12 @@ function checkBracket(){
        if (closeIndex !== -1){
            openIndex = bracketsArray.pop();
            if (closeIndex !== openIndex  ){
-               
-              newText[i]= "X";
+            
+              newText[i] = `<span class = "span1">${newText[i]}</span>`;
               
-           }
         }
         
         }
     textFild2.innerHTML =  newText.join("");
+}
 };
-
-
