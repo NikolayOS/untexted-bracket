@@ -1,5 +1,5 @@
 let btn = document.getElementById("btnConvert");
-
+let bracketsArray = [];
 btn.addEventListener("click", checkBracket);
 function checkBracket(){
     let textFild1 = document.getElementById("textFild1").value;
@@ -7,7 +7,6 @@ function checkBracket(){
     let newText = textFild1.split("");
     let open = ["(","{","["];
     let close = [")","}","]"];
-    let bracketsArray = [];
     let openIndex;
     let closeIndex;
   
